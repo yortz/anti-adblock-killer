@@ -1,0 +1,56 @@
+[Adblock Plus 2.0]
+! Version: 2013
+! Title: Reek Adblock Filters
+! Author: Reek | http://reeksite.com/
+!----------------------- Exceptions -----------------------!
+@@||adworkmedia.com/gLoader.php?*
+@@||loxtk.com/gLoader.php?*
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=forum.gamespowerita.com
+@@||action.metaffiliation.com/suivi.php*$domain=backin.net
+backin.net#@##adblock
+tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com#@##pubfooter
+tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com#@##pub2
+!----------------------- Hide elements -----------------------!
+juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
+||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
+juba-get.com##IMG[src="http://goo.gl/KcrEH"]
+tous-sports.tv###bannerfloat01
+hdcastream.com###closeFrame_banner
+hdcastream.com###closeFrame1
+tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
+cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
+serverhd.eu###closeFrame
+serverhd.eu###closeFrame1
+serverhd.eu###countDown
+serverhd.eu###closeFrame_banner
+serverhd.eu###closeFrame2_banner
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/468-1.png"]
+planet-series.tv##A[href*="http://www.yourfilezone.com/play"]
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-1.png"]
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/250-1.png"]
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com##*[id^="floatLayer"]
+antena24.com##*[id^="layer"]
+tugastream.com##IMG[src="http://i39.tinypic.com/sobxg2.gif"]
+tugastream.com###closediv
+thesporttv.eu##*[id^="ad_tlvmedia-"]
+str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com##*[id^="floatLayer"]
+str3amtv14.altervista.org###ad_adorika-300x250
+channel1.livesportshd.us###ai_tapar_content
+ilive.to###ad_overlay
+ilive.to###ad_overlay_content
+ilive.to###ad_overlay_countdown
+flashstreams.net,cocas.tv,soccertoall.net,tvgente.com##*[id^="floatLayer"]
+||pornoshara.tv/template/branding/swf/*
+nowvideo.ch###aad
+nowvideo.ch###aad2
+emb.aliez.tv###ads
+||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf?*
+sportvgratis1.com##IMG[src="http://www.pt.vigour-europe.com/wp-content/uploads/2012/09/vigour_europe_banner.jpg"]
+sportvgratis1.com###eplayer
+coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
+||record.xl.pt/pub/*
+||record.xl.pt/common/images/pub/*
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-2.png"]
+
+
+

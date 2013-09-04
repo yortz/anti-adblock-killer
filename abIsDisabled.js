@@ -1,0 +1,13 @@
+var isloaded = true; /* receive-sms.com */
+var awm = true; /* freezedownload.com */
+var pub = true; /* notre-planete.info */
+var gwloaded = true; /* filesdld.com */
+var adNotBlocked = true; /* mgcash.com */
+var adblock = false; /* must use */
+var adblocker = false;
+var adb = false; /* afreesms.com */
+var isBlockAds = false; /* kissanime.com */
+var IsAdBlockEnabled = false; /* coursdeprofs.fr */
+var ascfrgbujnkop = false; /* m6replay */
+var do_check = false; /* voyageforum.com */
+jQuery.adblocker = false; /* pro-zik.ws */
