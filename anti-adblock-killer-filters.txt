@@ -1,0 +1,162 @@
+[Adblock Plus 2.0]
+! Version: 2013
+! License: Creative Commons BY-NC-SA
+! Title: Anti-Adblock Killer | Filters for Adblockers
+! Author: Reek | http://reeksite.com/
+! Homepage: http://userscripts.org/scripts/show/155840
+! Contact: http://reeksite.com/contact.php
+! Rules: https://adblockplus.org/fr/filters
+!----------------------- Generic -----------------------!
+! AdWorkMedia
+@@||adworkmedia.com/gLoader.php?*
+@@||loxtk.com/gLoader.php?*
+! RTKAntiAdblock
+! http://ryanteck.github.io/RTK-Anti-Adblock/
+/blockcake.js$script
+! AntiAdBuster 
+! http://anti-ad-blocker.blogspot.kr/
+/anti-ad-buster.js$script
+! adframe.js
+! http://detect-ad-blocking-software.webconrad.com/
+@@/adframe.js$script
+! advertisement.js 
+! http://erikswan.net/abp/
+@@/advertisement.js$script
+@@/advertisement2.js$script
+! jQuery Adblock Detector
+! https://github.com/broom9/jquery-adblock-detector
+/jquery.adblock-detector.js$script
+! jQuery Adblock
+! http://www.vivekv.com
+/jquery.adblock.js$script
+!----------------------- Specific -----------------------!
+! Google Syndication
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=360haven.com|afreesms.com|agame.com|bbc.com|bitcoiner.net|carsfromitaly.info|codeasily.com|drivearabia.com|dsero.com|everythingon.tv|ffiles.com|file4go.com|freewaregenius.com|ftlauderdalewebcam.com|full-ngage-games.blogspot.com|gamespowerita.com|gifmagic.com|ilix.in|kingofgames.net|korean-candy.com|megaallday.com|misheel.net|moviemistakes.com|ninjaraider.com|numberempire.com|nyharborwebcam.com|oldversion.com|omegadrivers.net|photos.essence.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|readersdigest.com.au|rotoinfo.com|seeingwithsound.com|tech-blog.net|techydoor.com|tipstank.com|trutower.com|tv-kino.net|upfordown.com|urlink.at|warp2search.net
+! ads.js
+/ads.js$domain=visoterra.com
+! adb.js
+/adb.js$domain=btcflow.net|bitcointree.net
+! adblock.js
+/adblock.js$domain=mgcash.com
+! gamespowerita.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=forum.gamespowerita.com
+forum.gamespowerita.com#@##ad_block
+! backin.net
+@@||action.metaffiliation.com/suivi.php*$domain=backin.net
+backin.net#@##adblock
+! tvdez.com
+tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com#@##pubfooter
+tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com#@##pub2
+! pro-zik.ws domains
+/js/check.js$domain=pro-zik.ws|pro-tect.ws|pro-ddl.ws|pro-sport.ws
+! 360haven.com
+@@||360haven.com/adframe.js
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=360haven.com
+! file4go.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=file4go.com
+! afreesms.com
+@@||afreesms.com/js/adblock.js
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=afreesms.com
+! receive-sms.com
+@@||cpalead.com/mygateway.php?*$domain=receive-sms.com
+! gamecopyworld domains
+/getads.js$domain=gamecopyworld.com|gamecopyworld.eu
+gamecopyworld.com,gamecopyworld.eu###confirmOverlay
+! ecchi.animeron.tv
+ecchi.animeron.tv###confirmBox
+ecchi.animeron.tv###confirmOverlay
+! mix.dj
+@@||mix.dj/jscripts/jquery/mdj_adverts.js
+mix.dj##.classAds
+mix.dj###maskads
+! cp-g.net
+cp-g.net###adblock_layer
+! generation-nt.com
+generation-nt.com##P[style="margin:10px 18px 0;border:3px solid red;padding:10px;line-height:1.4em;font-size:14px;color:#333;"]
+! shoegames.blogspot.kr
+shoegames.blogspot.kr###HTML5
+! unfair.co
+unfair.co###awesomemessage
+! magestorm.net
+magestorm.net##.inner > .corners-top + .topiclist + DIV[style="padding: 5px 5px 2px 5px; font-size: 1.1em; background-color: #ECF1F3; margin: 0px auto; text-align: center;"]
+! forum.gizmolord.com
+forum.gizmolord.com###announcement-container > #announcement-content > .no
+! de.adklick.net
+de.adklick.net###w_ad.no_ad
+! tous-sports.tv
+tous-sports.tv###
+! bitcoins4.me
+bitcoins4.me##.alert.alert-block
+! canhasbitcoin.com
+canhasbitcoin.com###adblock-message
+! enigmaboard.com
+enigmaboard.com##.no
+! eventhubs.com
+eventhubs.com##DIV[style*="border-color: blue; border-style: dotted; border-width: 10px;"]
+! megagames.com
+megagames.com##.message.adblock-message
+! romulation.net
+romulation.net##DIV[style="background-color: #CC4444; color: #fff; padding:10px;"]
+! xxxdownloadsfree.blogspot.kr
+xxxdownloadsfree.blogspot.kr##DIV[style*="position:fixed;width:100%;top:0px;height:100%;background-color:black;z-index:100;"]
+! instantmanga.com
+instantmanga.com###notice
+! scan-manga.com
+scan-manga.com###pub_f0
+! ilix.in domains
+ilix.in,urlink.at,priva.us##.backk
+ilix.in,urlink.at,priva.us###blockMsg
+! senmanga.com
+senmanga.com##P[class="no"]
+! cardinals.clubs.nfl.com
+@@||prod.static.cardinals.clubs.nfl.com/nfl-assets/js/*
+! removeadblock.com
+@@||removeadblock.com/js/show_ads.js
+!----------------------- Malware -----------------------!
+putlocker.com##INPUT[type="button"][value="Download Now"][style="font-weight: bold;padding:4px;margin:5px 0px;width:180px;display:block !important;"]
+!----------------------- Hide Elements -----------------------!
+rireetchansons.fr###popins
+rireetchansons.fr###upsell
+juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
+||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
+juba-get.com##IMG[src="http://goo.gl/KcrEH"]
+tous-sports.tv###bannerfloat01
+hdcastream.com###closeFrame_banner
+hdcastream.com###closeFrame1
+tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
+cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
+serverhd.eu###closeFrame
+serverhd.eu###closeFrame1
+serverhd.eu###countDown
+serverhd.eu###closeFrame_banner
+serverhd.eu###closeFrame2_banner
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/468-1.png"]
+planet-series.tv##A[href*="http://www.yourfilezone.com/play"]
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-1.png"]
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/250-1.png"]
+planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-2.png"]
+antena24.com##*[id^="layer"]
+tugastream.com##IMG[src="http://i39.tinypic.com/sobxg2.gif"]
+tugastream.com###closediv
+thesporttv.eu##*[id^="ad_tlvmedia-"]
+! floatLayer
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com##*[id^="floatLayer"]
+str3amtv14.altervista.org###ad_adorika-300x250
+channel1.livesportshd.us###ai_tapar_content
+ilive.to###ad_overlay
+ilive.to###ad_overlay_content
+ilive.to###ad_overlay_countdown
+||pornoshara.tv/template/branding/swf/*
+nowvideo.ch###aad
+nowvideo.ch###aad2
+emb.aliez.tv###ads
+||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf?*
+sportvgratis1.com##IMG[src="http://www.pt.vigour-europe.com/wp-content/uploads/2012/09/vigour_europe_banner.jpg"]
+sportvgratis1.com###eplayer
+coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
+||record.xl.pt/pub/*
+||record.xl.pt/common/images/pub/*
+
+
+
+
