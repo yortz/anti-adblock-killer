@@ -4,7 +4,7 @@
 ! Title: Anti-Adblock Killer | Filters for Adblockers
 ! Author: Reek | http://reeksite.com/
 ! Homepage: http://userscripts.org/scripts/show/155840
-! Contact: http://reeksite.com/contact.php
+! Contact: http://userscripts.org/scripts/discuss/155840
 ! Rules: https://adblockplus.org/fr/filters
 !----------------------- Generic -----------------------!
 ! AdWorkMedia
@@ -113,7 +113,7 @@ senmanga.com##P[class="no"]
 ! removeadblock.com
 @@||removeadblock.com/js/show_ads.js
 !----------------------- Malware -----------------------!
-putlocker.com##INPUT[type="button"][value="Download Now"][style="font-weight: bold;padding:4px;margin:5px 0px;width:180px;display:block !important;"]
+putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"][style="font-weight: bold;padding:4px;margin:5px 0px;width:180px;display:block !important;"]
 !----------------------- Hide Elements -----------------------!
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
@@ -156,7 +156,7 @@ sportvgratis1.com###eplayer
 coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
 ||record.xl.pt/pub/*
 ||record.xl.pt/common/images/pub/*
-
+file4go.com###banner_728x90B
 
 
 
