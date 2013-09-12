@@ -113,7 +113,7 @@ senmanga.com##P[class="no"]
 ! removeadblock.com
 @@||removeadblock.com/js/show_ads.js
 !----------------------- Malware -----------------------!
-putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"][style="font-weight: bold;padding:4px;margin:5px 0px;width:180px;display:block !important;"]
+putlocker.com,sockshare.com##.site-content > H1 + DIV[class]
 !----------------------- Hide Elements -----------------------!
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
@@ -159,6 +159,7 @@ coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
 file4go.com###banner_728x90B
 pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
 androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
+megaviptv.me###floatLayer
 ! gametrailers.com
 @@||v.fwmrm.net/crossdomain.xml$object-subrequest,domain=gametrailers.com
 @@||v.fwmrm.net/ad/p/1?$object-subrequest,domain=gametrailers.com
