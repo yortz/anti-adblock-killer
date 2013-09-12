@@ -157,6 +157,6 @@ coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
 ||record.xl.pt/pub/*
 ||record.xl.pt/common/images/pub/*
 file4go.com###banner_728x90B
-
-
+pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
+androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
 
