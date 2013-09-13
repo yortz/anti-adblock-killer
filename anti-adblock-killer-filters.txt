@@ -92,7 +92,7 @@ canhasbitcoin.com###adblock-message
 ! enigmaboard.com
 enigmaboard.com##.no
 ! eventhubs.com
-eventhubs.com##DIV[style*="border-color: blue; border-style: dotted; border-width: 10px;"]
+eventhubs.com##DIV[style="position:fixed; bottom:25%; padding: 20px; padding-top:100px; padding-bottom:100px; width: 950px;  background-color: white; margin-bottom: 30px; margin-right: 10px; border-color: #6069de; border-style: solid; border-width: 5px;"]
 ! megagames.com
 megagames.com##.message.adblock-message
 ! romulation.net
@@ -112,9 +112,9 @@ senmanga.com##P[class="no"]
 @@||prod.static.cardinals.clubs.nfl.com/nfl-assets/js/*
 ! removeadblock.com
 @@||removeadblock.com/js/show_ads.js
-!----------------------- Malware -----------------------!
-putlocker.com,sockshare.com##.site-content > H1 + DIV[class]
 !----------------------- Hide Elements -----------------------!
+! putlocker fake button
+putlocker.com,sockshare.com##.site-content > H1 + DIV[class]
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
