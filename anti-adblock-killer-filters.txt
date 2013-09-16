@@ -126,8 +126,8 @@ senmanga.com##P[class="no"]
 !----------------------------------------------------------------------------------------------------!
 ! Hide
 !----------------------------------------------------------------------------------------------------!
-! putlocker fake button
-putlocker.com,sockshare.com##.site-content > H1 + DIV[class]
+! putlocker fake button malware
+putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
