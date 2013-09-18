@@ -14,6 +14,8 @@
 @@||loxtk.com/gLoader.php?*
 ! AdScendMedia
 @@||adscendmedia.com/gwjs.php?*
+###gw_overlay
+###gw_main
 ! RTKAntiAdblock
 ! http://ryanteck.github.io/RTK-Anti-Adblock/
 /blockcake.js$script
@@ -163,7 +165,10 @@ ilive.to###ad_overlay_countdown
 nowvideo.ch###aad
 nowvideo.ch###aad2
 emb.aliez.tv###ads
+tvi24.iol.pt##iframe[id=barraIOL]
+tvi24.iol.pt###heightPH
 ||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf?*
+record.xl.pt##[href^="http://partner.sbaffiliates.com/"]
 sportvgratis1.com##IMG[src="http://www.pt.vigour-europe.com/wp-content/uploads/2012/09/vigour_europe_banner.jpg"]
 sportvgratis1.com###eplayer
 coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
