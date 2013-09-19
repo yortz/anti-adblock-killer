@@ -13,6 +13,7 @@
 @@||adworkmedia.com/gLoader.php?*
 @@||loxtk.com/gLoader.php?*
 ! AdScendMedia
+! bee4.biz
 @@||adscendmedia.com/gwjs.php?*
 ###gw_overlay
 ###gw_main
@@ -125,13 +126,20 @@ senmanga.com##P[class="no"]
 ! gametrailers.com
 @@||v.fwmrm.net/crossdomain.xml$object-subrequest,domain=gametrailers.com
 @@||v.fwmrm.net/ad/p/1?$object-subrequest,domain=gametrailers.com
+! hdtvtuga.com
+||hdtvtuga.com/canais/jsads.js
 !----------------------------------------------------------------------------------------------------!
 ! Hide
 !----------------------------------------------------------------------------------------------------!
+! floatLayer
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com##*[id^="floatLayer"]
 ! putlocker fake button malware
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
+! rireetchansons
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
+! mylivesocial.com
+mylivesocial.com##.bgimg
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
 ||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
 juba-get.com##IMG[src="http://goo.gl/KcrEH"]
@@ -154,8 +162,6 @@ antena24.com##*[id^="layer"]
 tugastream.com##IMG[src="http://i39.tinypic.com/sobxg2.gif"]
 tugastream.com###closediv
 thesporttv.eu##*[id^="ad_tlvmedia-"]
-! floatLayer
-tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv##*[id^="floatLayer"]
 str3amtv14.altervista.org###ad_adorika-300x250
 channel1.livesportshd.us###ai_tapar_content
 ilive.to###ad_overlay
