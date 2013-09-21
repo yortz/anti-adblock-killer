@@ -30,6 +30,8 @@
 ! http://erikswan.net/abp/
 @@/advertisement.js$script
 @@/advertisement2.js$script
+! blockblockA - blockblockB
+@@/advertisement-AdBlock.js$script
 ! jQuery Adblock Detector
 ! https://github.com/broom9/jquery-adblock-detector
 /jquery.adblock-detector.js$script
