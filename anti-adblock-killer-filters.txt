@@ -105,7 +105,6 @@ enigmaboard.com##.no
 ! eventhubs.com
 @@||eventhubs.com/*.$script
 @@||eventhubs.com/*_$script
-eventhubs.com##DIV[style="position:fixed; bottom:25%; padding: 20px; padding-top:100px; padding-bottom:100px; width: 950px;  background-color: white; margin-bottom: 30px; margin-right: 10px; border-color: #6069de; border-style: solid; border-width: 5px;"]
 ! megagames.com
 megagames.com##.message.adblock-message
 ! romulation.net
@@ -130,18 +129,19 @@ senmanga.com##P[class="no"]
 @@||v.fwmrm.net/ad/p/1?$object-subrequest,domain=gametrailers.com
 ! hdtvtuga.com
 ||hdtvtuga.com/canais/jsads.js
+! tweaktown.com
+tweaktown.com#@#div[id^="div-gpt-ad
 !----------------------------------------------------------------------------------------------------!
 ! Hide
 !----------------------------------------------------------------------------------------------------!
 ! floatLayer
-tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com##*[id^="floatLayer"]
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org##*[id^="floatLayer"]
 ! putlocker fake button malware
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
-! rireetchansons
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
-! mylivesocial.com
 mylivesocial.com##.bgimg
+kat.ph,kickass.to##.partner1Button
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
 ||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
 juba-get.com##IMG[src="http://goo.gl/KcrEH"]
@@ -186,3 +186,7 @@ file4go.com###banner_728x90B
 pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
 androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
 megaviptv.me###floatLayer
+privatecdn.tv###micast_ads
+streamsportlive.es###WarningCodecBanner
+stream2watch.me###moveads
+ana1.me##.videopos
