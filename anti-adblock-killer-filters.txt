@@ -132,10 +132,51 @@ senmanga.com##P[class="no"]
 ! tweaktown.com
 tweaktown.com#@#div[id^="div-gpt-ad
 !----------------------------------------------------------------------------------------------------!
-! Hide
+! Ads
 !----------------------------------------------------------------------------------------------------!
 ! floatLayer
 tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org##*[id^="floatLayer"]
+! linkbucks.com (Visit Script)
+||linkbucks.com/visitScript/*$script
+||any.gs/visitScript/*$script
+||cash4links.co/visitScript/*$script
+||cash4files.com/visitScript/*$script
+||dyo.gs/visitScript/*$script
+||filesonthe.net/visitScript/*$script
+||goneviral.com/visitScript/*$script
+||megaline.co/visitScript/*$script
+||miniurls.co/visitScript/*$script
+||seriousdeals.net/visitScript/*$script
+||theseblogs.com/visitScript/*$script
+||theseforums.com/visitScript/*$script
+||tinylinks.co/visitScript/*$script
+||tubeviral.com/visitScript/*$script
+||ultrafiles.net/visitScript/*$script
+||urlbeat.net/visitScript/*$script
+||whackyvidz.com/visitScript/*$script
+||qqc.co/visitScript/*$script
+||yyv.co/visitScript/*$script
+||allanalpass.com/visitScript/*$script
+||amy.gs/visitScript/*$script
+||deb.gs/visitScript/*$script
+||drstickyfingers.com/visitScript/*$script
+||fapoff.com/visitScript/*$script
+||freean.us/visitScript/*$script
+||freegaysitepass.com/visitScript/*$script
+||galleries.bz/visitScript/*$script
+||hornywood.tv/visitScript/*$script
+||linkbabes.com/visitScript/*$script
+||picbucks.com/visitScript/*$script
+||poontown.net/visitScript/*$script
+||sexpalace.gs/visitScript/*$script
+||tnabucks.com/visitScript/*$script
+||youfap.me/visitScript/*$script
+||rqq.co/visitScript/*$script
+||zff.co/visitScript/*$script
+! adf.ly
+||cdn.adf.ly/js/entry.js
+||cdn.j.gs/js/entry.js
+||cdn.q.gs/js/entry.js
 ! putlocker fake button malware
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
 rireetchansons.fr###popins
