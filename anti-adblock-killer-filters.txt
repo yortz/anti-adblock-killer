@@ -231,3 +231,6 @@ privatecdn.tv###micast_ads
 streamsportlive.es###WarningCodecBanner
 stream2watch.me###moveads
 ana1.me##.videopos
+cdn.tvdez.com###cerrar
+soft98.ir##.shad
+soft98.ir##.shad2
