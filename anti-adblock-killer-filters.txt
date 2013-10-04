@@ -133,6 +133,9 @@ senmanga.com##P[class="no"]
 tweaktown.com#@#div[id^="div-gpt-ad
 ! hardware.no
 @@||hardware.no/ads/ad.jpg
+! seekingalpha.com
+seekingalpha.com###alphabox-modal-overlay
+seekingalpha.com###readlater_register_login
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
