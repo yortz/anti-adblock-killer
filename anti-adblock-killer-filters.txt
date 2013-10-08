@@ -38,6 +38,8 @@
 ! jQuery Adblock
 ! http://www.vivekv.com
 /jquery.adblock.js$script
+! http://kjanime.net/aclaracion-sobre-el-anti-adblock/
+/jquery.antiadsblock.js$script
 !----------------------------------------------------------------------------------------------------!
 ! Specific
 !----------------------------------------------------------------------------------------------------!
@@ -239,6 +241,7 @@ streamsportlive.es###WarningCodecBanner
 stream2watch.me###moveads
 ana1.me##.videopos
 cdn.tvdez.com###cerrar
+cdn.zuuk.net##*[id^="\5f bar_"]
 soft98.ir##.shad
 soft98.ir##.shad2
 ||script.banstex.com/script/*
