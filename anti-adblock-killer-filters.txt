@@ -138,6 +138,8 @@ tweaktown.com#@#div[id^="div-gpt-ad
 ! seekingalpha.com
 seekingalpha.com###alphabox-modal-overlay
 seekingalpha.com###readlater_register_login
+! jheberg.net
+@@||jheberg.net/js/advertisement_*.js
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
