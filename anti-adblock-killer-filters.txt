@@ -140,6 +140,9 @@ seekingalpha.com###alphabox-modal-overlay
 seekingalpha.com###readlater_register_login
 ! jheberg.net
 @@||jheberg.net/js/advertisement_*.js
+! myspass.de
+@@||vh.adscale.de/vah?*
+@@||vh.adscale.de/crossdomain.xml
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
@@ -247,3 +250,6 @@ cdn.zuuk.net##*[id^="\5f bar_"]
 soft98.ir##.shad
 soft98.ir##.shad2
 ||script.banstex.com/script/*
+youwatch.org###aad
+serie-streaming-vf.com###stp-bg
+serie-streaming-vf.com###stp-main
