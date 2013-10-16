@@ -28,8 +28,9 @@
 @@/adframe.js$script
 ! advertisement.js 
 ! http://erikswan.net/abp/
-@@/advertisement.js$script
-@@/advertisement2.js$script
+! http://adunblock.com/
+@@/advertisement.js|$script
+@@/advertisement*.js|$script
 ! blockblockA - blockblockB
 @@/advertisement-AdBlock.js$script
 ! jQuery Adblock Detector
