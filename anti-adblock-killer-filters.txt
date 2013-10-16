@@ -143,6 +143,8 @@ seekingalpha.com###readlater_register_login
 ! myspass.de
 @@||vh.adscale.de/vah?*
 @@||vh.adscale.de/crossdomain.xml
+! dizi-mag.com
+@@||adhood.com^$third-party,domain=dizi-mag.com
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
