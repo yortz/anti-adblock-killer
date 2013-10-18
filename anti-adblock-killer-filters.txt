@@ -146,6 +146,11 @@ seekingalpha.com###readlater_register_login
 @@||vh.adscale.de/crossdomain.xml
 ! dizi-mag.com
 @@||adhood.com^$third-party,domain=dizi-mag.com
+! hentaistream.com
+@@||syndication.exoclick.com/splash.php?*$popup,domain=hentaistream.com
+@@||popunder.fpctraffic.com/pop.js$popup,domain=hentaistream.com
+@@||cdn.popcash.net/pop.js,$popup,domain=hentaistream.com
+||hentaistream.com^$popup
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
@@ -256,3 +261,4 @@ soft98.ir##.shad2
 youwatch.org###aad
 serie-streaming-vf.com###stp-bg
 serie-streaming-vf.com###stp-main
+1fichier.com##[style="float:right;width:300px;height:600px"]
