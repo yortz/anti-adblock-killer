@@ -30,7 +30,8 @@
 ! http://erikswan.net/abp/
 ! http://adunblock.com/
 @@/advertisement.js|$script
-@@/advertisement*.js|$script
+@@/advertisement1.js|$script
+@@/advertisement2.js|$script
 ! blockblockA - blockblockB
 @@/advertisement-AdBlock.js$script
 ! jQuery Adblock Detector
@@ -140,7 +141,8 @@ tweaktown.com#@#div[id^="div-gpt-ad
 seekingalpha.com###alphabox-modal-overlay
 seekingalpha.com###readlater_register_login
 ! jheberg.net
-@@||cdn.jheberg.net/js/*_advertisement.js$script
+@@||jheberg.net/js/*_advertisement.js$script
+@@||jheberg.net/js/advertisement_*.js$script
 ! myspass.de
 @@||vh.adscale.de/vah?*
 @@||vh.adscale.de/crossdomain.xml
@@ -226,10 +228,12 @@ tugastream.com##IMG[src="http://i39.tinypic.com/sobxg2.gif"]
 tugastream.com###closediv
 thesporttv.eu##*[id^="ad_tlvmedia-"]
 str3amtv14.altervista.org###ad_adorika-300x250
+||str3amtv14.altervista.org^$popup
 channel1.livesportshd.us###ai_tapar_content
 ilive.to###ad_overlay
 ilive.to###ad_overlay_content
 ilive.to###ad_overlay_countdown
+ilive.to###ad_overlay
 ||pornoshara.tv/template/branding/swf/*
 nowvideo.ch###aad
 nowvideo.ch###aad2
