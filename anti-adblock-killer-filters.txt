@@ -19,13 +19,13 @@
 ###gw_main
 ! RTKAntiAdblock
 ! http://ryanteck.github.io/RTK-Anti-Adblock/
-/blockcake.js$script
+/blockcake.js|$script
 ! AntiAdBuster 
 ! http://anti-ad-blocker.blogspot.kr/
-/anti-ad-buster.js$script
+/anti-ad-buster.js|$script
 ! adframe.js
 ! http://detect-ad-blocking-software.webconrad.com/
-@@/adframe.js$script
+@@/adframe.js|$script
 ! advertisement.js 
 ! http://erikswan.net/abp/
 ! http://adunblock.com/
@@ -33,26 +33,26 @@
 @@/advertisement1.js|$script
 @@/advertisement2.js|$script
 ! blockblockA - blockblockB
-@@/advertisement-AdBlock.js$script
+@@/advertisement-AdBlock.js|$script
 ! jQuery Adblock Detector
 ! https://github.com/broom9/jquery-adblock-detector
-/jquery.adblock-detector.js$script
+/jquery.adblock-detector.js|$script
 ! jQuery Adblock
 ! http://www.vivekv.com
-/jquery.adblock.js$script
+/jquery.adblock.js|$script
 ! http://kjanime.net/aclaracion-sobre-el-anti-adblock/
-/jquery.antiadsblock.js$script
+/jquery.antiadsblock.js|$script
 !----------------------------------------------------------------------------------------------------!
 ! Specific
 !----------------------------------------------------------------------------------------------------!
+! ads.js
+/ads.js|$script,domain=visoterra.com
+! adb.js
+/adb.js|$script,domain=btcflow.net|bitcointree.net
+! adblock.js
+/adblock.js|$script,domain=mgcash.com
 ! Google Syndication
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=360haven.com|afreesms.com|agame.com|bbc.com|bitcoiner.net|carsfromitaly.info|codeasily.com|drivearabia.com|dsero.com|everythingon.tv|ffiles.com|file4go.com|freewaregenius.com|ftlauderdalewebcam.com|full-ngage-games.blogspot.com|gamespowerita.com|gifmagic.com|ilix.in|kingofgames.net|korean-candy.com|megaallday.com|misheel.net|moviemistakes.com|ninjaraider.com|numberempire.com|nyharborwebcam.com|oldversion.com|omegadrivers.net|photos.essence.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|readersdigest.com.au|rotoinfo.com|seeingwithsound.com|tech-blog.net|techydoor.com|tipstank.com|trutower.com|tv-kino.net|upfordown.com|urlink.at|warp2search.net
-! ads.js
-/ads.js$domain=visoterra.com
-! adb.js
-/adb.js$domain=btcflow.net|bitcointree.net
-! adblock.js
-/adblock.js$domain=mgcash.com
 ! gamespowerita.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=forum.gamespowerita.com
 forum.gamespowerita.com#@##ad_block
@@ -262,7 +262,15 @@ cdn.zuuk.net##*[id^="\5f bar_"]
 soft98.ir##.shad
 soft98.ir##.shad2
 ||script.banstex.com/script/*
+! youwatch.org
 youwatch.org###aad
+! serie-streaming-vf.com
 serie-streaming-vf.com###stp-bg
 serie-streaming-vf.com###stp-main
+! 1fichier.com
 1fichier.com##[style="float:right;width:300px;height:600px"]
+! footstream.tv
+||foot.footstream.tv/js/compteur1.js$script
+hdcastream.com###total
+||business-agence.eu^$domain=footstream.tv
+
