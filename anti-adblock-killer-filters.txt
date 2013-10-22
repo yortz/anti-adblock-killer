@@ -52,7 +52,7 @@
 ! adblock.js
 /adblock.js|$script,domain=mgcash.com
 ! Google Syndication
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=360haven.com|afreesms.com|agame.com|bbc.com|bitcoiner.net|carsfromitaly.info|codeasily.com|drivearabia.com|dsero.com|everythingon.tv|ffiles.com|file4go.com|freewaregenius.com|ftlauderdalewebcam.com|full-ngage-games.blogspot.com|gamespowerita.com|gifmagic.com|ilix.in|kingofgames.net|korean-candy.com|megaallday.com|misheel.net|moviemistakes.com|ninjaraider.com|numberempire.com|nyharborwebcam.com|oldversion.com|omegadrivers.net|photos.essence.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|readersdigest.com.au|rotoinfo.com|seeingwithsound.com|tech-blog.net|techydoor.com|tipstank.com|trutower.com|tv-kino.net|upfordown.com|urlink.at|warp2search.net
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=360haven.com|afreesms.com|agame.com|bbc.com|bitcoiner.net|carsfromitaly.info|codeasily.com|drivearabia.com|dsero.com|everythingon.tv|ffiles.com|file4go.com|freewaregenius.com|ftlauderdalewebcam.com|full-ngage-games.blogspot.com|gamespowerita.com|gifmagic.com|ilix.in|kingofgames.net|korean-candy.com|megaallday.com|misheel.net|moviemistakes.com|ninjaraider.com|numberempire.com|nyharborwebcam.com|oldversion.com|omegadrivers.net|photos.essence.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|readersdigest.com.au|rotoinfo.com|seeingwithsound.com|tech-blog.net|techydoor.com|tipstank.com|trutower.com|tv-kino.net|upfordown.com|urlink.at|warp2search.net|preemlinks.com
 ! gamespowerita.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=forum.gamespowerita.com
 forum.gamespowerita.com#@##ad_block
@@ -158,7 +158,7 @@ seekingalpha.com###readlater_register_login
 ! videotools.12pings.net
 videotools.12pings.net###chucknorris
 !----------------------------------------------------------------------------------------------------!
-! Social Network
+! Social Network (overlay)
 !----------------------------------------------------------------------------------------------------!
 /fbox/fb.js|$domain=musicbiatch.com
 /fbox/fblaunch.js|$domain=musicbiatch.com
@@ -289,4 +289,7 @@ hdcastream.com###total
 ! torrentz.eu
 ||torrentz.eu/p/$popup
 ||torrentz.eu/tzs.2.js$script
-
+! coder143.com
+||musicfire.googlecode.com/files/CountryCode.js
+||musicfire.googlecode.com/files/AD.Loader-min.js
+||musicfire.googlecode.com/files/jquery.colorbox-min.js
