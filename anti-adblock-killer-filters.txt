@@ -153,6 +153,18 @@ seekingalpha.com###readlater_register_login
 @@||popunder.fpctraffic.com/pop.js$popup,domain=hentaistream.com
 @@||cdn.popcash.net/pop.js,$popup,domain=hentaistream.com
 ||hentaistream.com^$popup
+! nation2.com
+@@||cpagrip.com/script_include.php?id=*$domain=nation2.com
+!----------------------------------------------------------------------------------------------------!
+! Social Network
+!----------------------------------------------------------------------------------------------------!
+! musicbiatch.com
+musicbiatch.com###fancybox-overlay
+musicbiatch.com###fancybox-wrap
+!----------------------------------------------------------------------------------------------------!
+! Trackers
+!----------------------------------------------------------------------------------------------------!
+||js.sapo.pt/SAPOWebAnalytics/
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
@@ -273,4 +285,7 @@ serie-streaming-vf.com###stp-main
 ||foot.footstream.tv/js/compteur1.js$script
 hdcastream.com###total
 ||business-agence.eu^$domain=footstream.tv
+! torrentz.eu
+||torrentz.eu/p/$popup
+||torrentz.eu/tzs.2.js$script
 
