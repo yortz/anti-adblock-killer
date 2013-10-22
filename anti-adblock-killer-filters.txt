@@ -155,6 +155,8 @@ seekingalpha.com###readlater_register_login
 ||hentaistream.com^$popup
 ! nation2.com
 @@||cpagrip.com/script_include.php?id=*$domain=nation2.com
+! videotools.12pings.net
+videotools.12pings.net###chucknorris
 !----------------------------------------------------------------------------------------------------!
 ! Social Network
 !----------------------------------------------------------------------------------------------------!
