@@ -166,6 +166,7 @@ videotools.12pings.net###chucknorris
 ! Trackers
 !----------------------------------------------------------------------------------------------------!
 ||js.sapo.pt/SAPOWebAnalytics/
+||google-analytics.com/ga.js
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
@@ -214,10 +215,25 @@ tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervi
 ||cdn.q.gs/js/entry.js
 ! putlocker fake button malware
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
+! rireetchansons.fr
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
 mylivesocial.com##.bgimg
-kat.ph,kickass.to##.partner1Button
+! kickass.to
+kat.ph,kickass.to,katproxy.com,proxykat.me##.partner1Button
+! thepiratebay
+about:blank$popup,domain=thepiratebay.sx|pirateproxy.se|unblocked.co|piratesniper.net|pirateproxy.net|piratebaybyproxy.com|theproxybay.biz|proxybay.eu|tpbunion.com|quluxingba.info|tpb.ducke.co|piratebayunion.com|tpb.piraten.lu|tpb.ipredator.se|tpb.pirati.cz|theproxybay.biz|51tsj.com|bay.alanaktion.net|tpbpirate.tk
+/poptest.js|$popup,domain=thepiratebay.sx|pirateproxy.se|unblocked.co|piratesniper.net|pirateproxy.net|piratebaybyproxy.com|theproxybay.biz|proxybay.eu|tpbunion.com|quluxingba.info|tpb.ducke.co|piratebayunion.com|tpb.piraten.lu|tpb.ipredator.se|tpb.pirati.cz|theproxybay.biz|51tsj.com|bay.alanaktion.net|tpbpirate.tk
+! stream-happy.com
+stream-happy.com###layer2
+! purevid.com
+purevid.com###ad
+! mondebrideur.com
+mondebrideur.com##.plugbarremozi
+! mega debrideu
+||kyliane.fr/pub.php
+||kyliane.fr/pub2.php
+! juba-get.com
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
 ||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
 juba-get.com##IMG[src="http://goo.gl/KcrEH"]
@@ -285,6 +301,7 @@ serie-streaming-vf.com###stp-main
 ! footstream.tv
 ||foot.footstream.tv/js/compteur1.js$script
 hdcastream.com###total
+hdcastream.com##.container
 ||business-agence.eu^$domain=footstream.tv
 ! torrentz.eu
 ||torrentz.eu/p/$popup
