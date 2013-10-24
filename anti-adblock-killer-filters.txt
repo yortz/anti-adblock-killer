@@ -51,6 +51,9 @@
 /adb.js|$script,domain=btcflow.net|bitcointree.net
 ! adblock.js
 /adblock.js|$script,domain=mgcash.com
+! Anti ADs Blocker script
+! http://codecanyon.net/item/anti-adblock-aadb-anti-ads-blocker-script/5367731
+/aadb/script.js|$script,domain=demo.kekh.net
 ! Google Syndication
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=360haven.com|afreesms.com|agame.com|bbc.com|bitcoiner.net|carsfromitaly.info|codeasily.com|drivearabia.com|dsero.com|everythingon.tv|ffiles.com|file4go.com|freewaregenius.com|ftlauderdalewebcam.com|full-ngage-games.blogspot.com|gamespowerita.com|gifmagic.com|ilix.in|kingofgames.net|korean-candy.com|megaallday.com|misheel.net|moviemistakes.com|ninjaraider.com|numberempire.com|nyharborwebcam.com|oldversion.com|omegadrivers.net|photos.essence.com|portcanaveralwebcam.com|portevergladeswebcam.com|priva.us|readersdigest.com.au|rotoinfo.com|seeingwithsound.com|tech-blog.net|techydoor.com|tipstank.com|trutower.com|tv-kino.net|upfordown.com|urlink.at|warp2search.net|preemlinks.com
 ! gamespowerita.com
@@ -158,10 +161,12 @@ seekingalpha.com###readlater_register_login
 ! videotools.12pings.net
 videotools.12pings.net###chucknorris
 !----------------------------------------------------------------------------------------------------!
-! Social Network (overlay)
+! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
 /fbox/fb.js|$domain=musicbiatch.com
 /fbox/fblaunch.js|$domain=musicbiatch.com
+serie-streaming-vf.com###stp-bg
+serie-streaming-vf.com###stp-main
 !----------------------------------------------------------------------------------------------------!
 ! Trackers
 !----------------------------------------------------------------------------------------------------!
@@ -170,8 +175,9 @@ videotools.12pings.net###chucknorris
 !----------------------------------------------------------------------------------------------------!
 ! Ads
 !----------------------------------------------------------------------------------------------------!
-! floatLayer
-tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org##*[id^="floatLayer"]
+! Advertisers ---------------------------------------------------------------------------------------
+! pubdirecte.com
+||pubdirecte.com^$popup
 ! linkbucks.com (Visit Script)
 ||linkbucks.com/visitScript/*$script
 ||any.gs/visitScript/*$script
@@ -213,100 +219,141 @@ tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervi
 ||cdn.adf.ly/js/entry.js
 ||cdn.j.gs/js/entry.js
 ||cdn.q.gs/js/entry.js
-! putlocker fake button malware
-putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
-! rireetchansons.fr
-rireetchansons.fr###popins
-rireetchansons.fr###upsell
-mylivesocial.com##.bgimg
+! Torrent --------------------------------------------------------------------------------------
+! torrentz.eu
+||torrentz.eu/p/$popup
+||torrentz.eu/tzs.2.js$script
 ! kickass.to
 kat.ph,kickass.to,katproxy.com,proxykat.me##.partner1Button
 ! thepiratebay
 about:blank$popup,domain=thepiratebay.sx|pirateproxy.se|unblocked.co|piratesniper.net|pirateproxy.net|piratebaybyproxy.com|theproxybay.biz|proxybay.eu|tpbunion.com|quluxingba.info|tpb.ducke.co|piratebayunion.com|tpb.piraten.lu|tpb.ipredator.se|tpb.pirati.cz|theproxybay.biz|51tsj.com|bay.alanaktion.net|tpbpirate.tk
 /poptest.js|$popup,domain=thepiratebay.sx|pirateproxy.se|unblocked.co|piratesniper.net|pirateproxy.net|piratebaybyproxy.com|theproxybay.biz|proxybay.eu|tpbunion.com|quluxingba.info|tpb.ducke.co|piratebayunion.com|tpb.piraten.lu|tpb.ipredator.se|tpb.pirati.cz|theproxybay.biz|51tsj.com|bay.alanaktion.net|tpbpirate.tk
-! stream-happy.com
-stream-happy.com###layer2
-! purevid.com
-purevid.com###ad
+! extratorrent.com
+extratorrent.com,extratorrent.cc,extratorrent.ws,extramirror.com,195.144.21.228##table > tbody > tr:nth-of-type(3) > td > table > tbody > tr > td > div:nth-of-type(3)
+! fenopy.se
+fenopy.se##[rel="nofollow external"][href^="/ddl/"]
+! seedpeer.me
+seedpeer.me###body > #pageTop + * + #headerbox + TABLE[width="100%"]
+! mininova.org
+mininova.org###content > #adspot-a + .maintable
+! Debriders --------------------------------------------------------------------------------------
 ! mondebrideur.com
 mondebrideur.com##.plugbarremozi
-! mega debrideu
+! mega-debrid.eu
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
 ! juba-get.com
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
 ||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
 juba-get.com##IMG[src="http://goo.gl/KcrEH"]
-tous-sports.tv###bannerfloat01
-hdcastream.com###closeFrame_banner
-hdcastream.com###closeFrame1
-tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
-cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
-serverhd.eu###closeFrame
-serverhd.eu###closeFrame1
-serverhd.eu###countDown
-serverhd.eu###closeFrame_banner
-serverhd.eu###closeFrame2_banner
+! stream-happy.com
+stream-happy.com###layer2
+! coredistrict.com
+coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
+! Cloud --------------------------------------------------------------------------------------
+! wawa-film.org
+wawa-film.org##[href^="http://api.adlure.net/partner/click/"]
+! planet-series.tv
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/468-1.png"]
 planet-series.tv##A[href*="http://www.yourfilezone.com/play"]
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-1.png"]
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/250-1.png"]
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-2.png"]
-antena24.com##*[id^="layer"]
-tugastream.com##IMG[src="http://i39.tinypic.com/sobxg2.gif"]
-tugastream.com###closediv
-thesporttv.eu##*[id^="ad_tlvmedia-"]
-str3amtv14.altervista.org###ad_adorika-300x250
-||str3amtv14.altervista.org^$popup
-channel1.livesportshd.us###ai_tapar_content
-ilive.to###ad_overlay
-ilive.to###ad_overlay_content
-ilive.to###ad_overlay_countdown
-ilive.to###ad_overlay
-||pornoshara.tv/template/branding/swf/*
-nowvideo.ch###aad
-nowvideo.ch###aad2
-emb.aliez.tv###ads
-tvi24.iol.pt##iframe[id=barraIOL]
-tvi24.iol.pt###heightPH
-||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf?*
-record.xl.pt##[href^="http://partner.sbaffiliates.com/"]
-sportvgratis1.com##IMG[src="http://www.pt.vigour-europe.com/wp-content/uploads/2012/09/vigour_europe_banner.jpg"]
-sportvgratis1.com###eplayer
-coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
-||record.xl.pt/pub/*
-||record.xl.pt/common/images/pub/*
-||js.xl.pt/molduras/record/deco/*
-pubs.xl.pt###descontos
-file4go.com###banner_728x90B
-pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
-androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
-megaviptv.me###floatLayer
-privatecdn.tv###micast_ads
-streamsportlive.es###WarningCodecBanner
-stream2watch.me###moveads
-ana1.me##.videopos
-cdn.tvdez.com###cerrar
-cdn.zuuk.net##*[id^="\5f bar_"]
-soft98.ir##.shad
-soft98.ir##.shad2
-||script.banstex.com/script/*
+! Streaming --------------------------------------------------------------------------------------
+! floatLayer
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org##*[id^="floatLayer"]
+! purevid.com
+purevid.com###ad
 ! youwatch.org
 youwatch.org###aad
-! serie-streaming-vf.com
-serie-streaming-vf.com###stp-bg
-serie-streaming-vf.com###stp-main
-! 1fichier.com
-1fichier.com##[style="float:right;width:300px;height:600px"]
+! nowvideo.ch
+nowvideo.ch###aad
+nowvideo.ch###aad2
+! tous-sports.tv
+tous-sports.tv###bannerfloat01
+tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
+! hdcastream.com
+hdcastream.com###closeFrame_banner
+hdcastream.com###closeFrame1
+! serverhd.eu
+serverhd.eu###closeFrame
+serverhd.eu###closeFrame1
+serverhd.eu###countDown
+serverhd.eu###closeFrame_banner
+serverhd.eu###closeFrame2_banner
 ! footstream.tv
 ||foot.footstream.tv/js/compteur1.js$script
 hdcastream.com###total
 hdcastream.com##.container
 ||business-agence.eu^$domain=footstream.tv
-! torrentz.eu
-||torrentz.eu/p/$popup
-||torrentz.eu/tzs.2.js$script
+! ilive.to
+ilive.to###ad_overlay
+ilive.to###ad_overlay_content
+ilive.to###ad_overlay_countdown
+ilive.to###ad_overlay
+! pornoshara.tv
+||pornoshara.tv/template/branding/swf/*
+! aliez.tv
+emb.aliez.tv###ads
+! megaviptv.me
+megaviptv.me###floatLayer
+! privatecdn.tv
+privatecdn.tv###micast_ads
+! streamsportlive.es
+streamsportlive.es###WarningCodecBanner
+! stream2watch.me
+stream2watch.me###moveads
+! ana1.me
+ana1.me##.videopos
+! zuuk.net
+cdn.zuuk.net##*[id^="\5f bar_"]
+! tvdez.com
+cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
+cdn.tvdez.com###cerrar
+! tugastream.com
+tugastream.com##IMG[src="http://i39.tinypic.com/sobxg2.gif"]
+tugastream.com###closediv
+! antena24.com
+antena24.com##*[id^="layer"]
+! thesporttv.eu
+thesporttv.eu##*[id^="ad_tlvmedia-"]
+! str3amtv14
+str3amtv14.altervista.org###ad_adorika-300x250
+||str3amtv14.altervista.org^$popup
+channel1.livesportshd.us###ai_tapar_content
+! sportvgratis1.com
+sportvgratis1.com##IMG[src="http://www.pt.vigour-europe.com/wp-content/uploads/2012/09/vigour_europe_banner.jpg"]
+sportvgratis1.com###eplayer
+! Others ---------------------------------------------------------------------------------------
+! tvi
+tvi24.iol.pt##iframe[id=barraIOL]
+tvi24.iol.pt###heightPH
+! jornal record
+||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf?*
+record.xl.pt##[href^="http://partner.sbaffiliates.com/"]
+||record.xl.pt/pub/*
+||record.xl.pt/common/images/pub/*
+||js.xl.pt/molduras/record/deco/*
+pubs.xl.pt###descontos
+! file4go.com
+file4go.com###banner_728x90B
+! pro-ddl.ws
+pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
+androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
+! soft98.ir
+soft98.ir##.shad
+soft98.ir##.shad2
+! banstex.com
+||script.banstex.com/script/*
+! 1fichier.com
+1fichier.com##[style="float:right;width:300px;height:600px"]
 ! coder143.com
 ||musicfire.googlecode.com/files/CountryCode.js
 ||musicfire.googlecode.com/files/AD.Loader-min.js
 ||musicfire.googlecode.com/files/jquery.colorbox-min.js
+! putlocker fake button malware
+putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
+! rireetchansons.fr
+rireetchansons.fr###popins
+rireetchansons.fr###upsell
+mylivesocial.com##.bgimg
