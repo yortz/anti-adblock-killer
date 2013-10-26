@@ -160,13 +160,15 @@ seekingalpha.com###readlater_register_login
 @@||cpagrip.com/script_include.php?id=*$domain=nation2.com
 ! videotools.12pings.net
 videotools.12pings.net###chucknorris
+! viki.com
+@@||pubads.g.doubleclick.net/gampad/*$domain=viki.com
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
 /fbox/fb.js|$domain=musicbiatch.com
 /fbox/fblaunch.js|$domain=musicbiatch.com
-serie-streaming-vf.com###stp-bg
-serie-streaming-vf.com###stp-main
+serie-streaming-vf.com,dbrid.eu###stp-bg
+serie-streaming-vf.com,dbrid.eu###stp-main
 !----------------------------------------------------------------------------------------------------!
 ! Trackers
 !----------------------------------------------------------------------------------------------------!
@@ -357,3 +359,5 @@ putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
 mylivesocial.com##.bgimg
+! filestube.com
+filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
