@@ -361,3 +361,5 @@ rireetchansons.fr###upsell
 mylivesocial.com##.bgimg
 ! filestube.com
 filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
+! http://pop.billionuploads.com/ppp/
+||pop.billionuploads.com/ppp/$popup
