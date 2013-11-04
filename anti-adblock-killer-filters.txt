@@ -110,8 +110,7 @@ canhasbitcoin.com###adblock-message
 ! enigmaboard.com
 enigmaboard.com##.no
 ! eventhubs.com
-@@||eventhubs.com/*.$script
-@@||eventhubs.com/*_$script
+@@||n4403ad.doubleclick.net/adj/gn.eventhubs.com/*
 ! megagames.com
 megagames.com##.message.adblock-message
 ! romulation.net
@@ -363,3 +362,4 @@ mylivesocial.com##.bgimg
 filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ! http://pop.billionuploads.com/ppp/
 ||pop.billionuploads.com/ppp/$popup
+/grooptoo/index/getGrooptooAd/|$script
