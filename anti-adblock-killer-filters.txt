@@ -145,6 +145,9 @@ seekingalpha.com###readlater_register_login
 ! jheberg.net
 @@||jheberg.net/js/*_advertisement.js$script
 @@||jheberg.net/js/advertisement_*.js$script
+jheberg.net##@#ads_bottom
+jheberg.net##.jadb
+jheberg.net##.loading-background
 ! myspass.de
 @@||vh.adscale.de/vah?*
 @@||vh.adscale.de/crossdomain.xml
@@ -362,4 +365,4 @@ mylivesocial.com##.bgimg
 filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ! http://pop.billionuploads.com/ppp/
 ||pop.billionuploads.com/ppp/$popup
-/grooptoo/index/getGrooptooAd/|$script
+/grooptoo/index/getGrooptooAd/|
