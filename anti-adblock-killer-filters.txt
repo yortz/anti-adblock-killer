@@ -151,6 +151,8 @@ jheberg.net##.loading-background
 ! myspass.de
 @@||vh.adscale.de/vah?*
 @@||vh.adscale.de/crossdomain.xml
+||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest 
+|serving-sys.com^$third-party
 ! dizi-mag.com
 @@||adhood.com^$third-party,domain=dizi-mag.com
 ! hentaistream.com
@@ -363,6 +365,10 @@ rireetchansons.fr###upsell
 mylivesocial.com##.bgimg
 ! filestube.com
 filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
-! http://pop.billionuploads.com/ppp/
+! billionuploads.com/
 ||pop.billionuploads.com/ppp/$popup
 /grooptoo/index/getGrooptooAd/|
+! fake codec
+###WarningCodec
+! fake download link
+##A[href^=" http://www.FriendlyDuck.com/AF_TA/rel/"]
