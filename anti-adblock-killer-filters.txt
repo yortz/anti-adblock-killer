@@ -15,6 +15,7 @@
 ! AdScendMedia
 ! bee4.biz
 @@||adscendmedia.com/gwjs.php?*
+@@||cpalead.com/gwjs.php?*$domain=runningmanengsub.com
 ###gw_overlay
 ###gw_main
 ! RTKAntiAdblock
