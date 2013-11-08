@@ -169,6 +169,8 @@ videotools.12pings.net###chucknorris
 @@||pubads.g.doubleclick.net/gampad/*$domain=viki.com
 ! thesimsresource.com
 thesimsresource.com#@##leaderboardad
+! mako.co.il
+@@||checkm8.com^$object-subrequest,domain=mako.co.il
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
