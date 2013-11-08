@@ -10,12 +10,12 @@
 ! Generic
 !----------------------------------------------------------------------------------------------------!
 ! AdWorkMedia
-@@||adworkmedia.com/gLoader.php?*
-@@||loxtk.com/gLoader.php?*
+@@||adworkmedia.com/gLoader.php?*$script
+@@||loxtk.com/gLoader.php?*$script
 ! AdScendMedia
 ! bee4.biz
-@@||adscendmedia.com/gwjs.php?*
-@@||cpalead.com/gwjs.php?*$domain=runningmanengsub.com
+@@||adscendmedia.com/gwjs.php?*$script
+@@||cpalead.com/gwjs.php?*$script,domain=runningmanengsub.com
 ###gw_overlay
 ###gw_main
 ! RTKAntiAdblock
@@ -167,6 +167,8 @@ jheberg.net##.loading-background
 videotools.12pings.net###chucknorris
 ! viki.com
 @@||pubads.g.doubleclick.net/gampad/*$domain=viki.com
+! thesimsresource.com
+thesimsresource.com#@##leaderboardad
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
