@@ -377,3 +377,13 @@ filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ###WarningCodec
 ! fake download link
 ##A[href^=" http://www.FriendlyDuck.com/AF_TA/rel/"]
+! cineplanet21.com
+tvrojadirecta.com##IMG[src="/close.gif"]
+limaenvivo.com##IMG[title="close"]
+zeyutvcanales.com###KBTricksFBpop
+canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com##*[id^="floatLayer"]
+pirlotv.tv###ad_overlay
+pirlotv.tv###ad_overlay_content
+pirlotv.tv###ad_overlay_countdown
+@@||cdn.chatytvgratis.me/ads/ads.php?*$domain=cineplanet21.com
+@@||cdn.chatytvgratis.me/ads/ads2.php?*$domain=cineplanet21.com
