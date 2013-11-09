@@ -112,6 +112,7 @@ canhasbitcoin.com###adblock-message
 enigmaboard.com##.no
 ! eventhubs.com
 @@||n4403ad.doubleclick.net/adj/gn.eventhubs.com/*
+@@||ad.rctrails.com^
 ! megagames.com
 megagames.com##.message.adblock-message
 ! romulation.net
@@ -227,9 +228,9 @@ serie-streaming-vf.com,dbrid.eu###stp-main
 ||rqq.co/visitScript/*$script
 ||zff.co/visitScript/*$script
 ! adf.ly
-||cdn.adf.ly/js/entry.js
-||cdn.j.gs/js/entry.js
-||cdn.q.gs/js/entry.js
+||cdn.adf.ly/js/entry.js$script
+||cdn.j.gs/js/entry.js$script
+||cdn.q.gs/js/entry.js$script
 ! Torrent --------------------------------------------------------------------------------------
 ! torrentz.eu
 ||torrentz.eu/p/$popup
@@ -272,7 +273,7 @@ planet-series.tv##IMG[src="http://www.planet-series.tv/images/250-1.png"]
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-2.png"]
 ! Streaming --------------------------------------------------------------------------------------
 ! floatLayer
-tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org##*[id^="floatLayer"]
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org,championsuefa.tv,canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com##*[id^="floatLayer"]
 ! purevid.com
 purevid.com###ad
 ! youwatch.org
@@ -294,14 +295,14 @@ serverhd.eu###closeFrame_banner
 serverhd.eu###closeFrame2_banner
 ! footstream.tv
 ||foot.footstream.tv/js/compteur1.js$script
+||business-agence.eu^$domain=footstream.tv
+! hdcastream.com
 hdcastream.com###total
 hdcastream.com##.container
-||business-agence.eu^$domain=footstream.tv
 ! ilive.to
 ilive.to###ad_overlay
 ilive.to###ad_overlay_content
 ilive.to###ad_overlay_countdown
-ilive.to###ad_overlay
 ! pornoshara.tv
 ||pornoshara.tv/template/branding/swf/*
 ! aliez.tv
@@ -331,10 +332,25 @@ thesporttv.eu##*[id^="ad_tlvmedia-"]
 ! str3amtv14
 str3amtv14.altervista.org###ad_adorika-300x250
 ||str3amtv14.altervista.org^$popup
+! livesportshd.us
 channel1.livesportshd.us###ai_tapar_content
 ! sportvgratis1.com
-sportvgratis1.com##IMG[src="http://www.pt.vigour-europe.com/wp-content/uploads/2012/09/vigour_europe_banner.jpg"]
+sportvgratis1.com##IMG[src^="http://www.pt.vigour-europe.com/"]
 sportvgratis1.com###eplayer
+tvrojadirecta.com##IMG[src="/close.gif"]
+! limaenvivo.com
+limaenvivo.com##IMG[title="close"]
+! championsuefa.tv
+championsuefa.tv###closebutton
+! zeyutvcanales.com
+zeyutvcanales.com###KBTricksFBpop
+! pirlotv.tv
+pirlotv.tv###ad_overlay
+pirlotv.tv###ad_overlay_content
+pirlotv.tv###ad_overlay_countdown
+! chatytvgratis.me
+@@||cdn.chatytvgratis.me/ads/ads.php?*$domain=cineplanet21.com
+@@||cdn.chatytvgratis.me/ads/ads2.php?*$domain=cineplanet21.com
 ! Others ---------------------------------------------------------------------------------------
 ! tvi
 tvi24.iol.pt##iframe[id=barraIOL]
@@ -377,13 +393,3 @@ filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ###WarningCodec
 ! fake download link
 ##A[href^=" http://www.FriendlyDuck.com/AF_TA/rel/"]
-! cineplanet21.com
-tvrojadirecta.com##IMG[src="/close.gif"]
-limaenvivo.com##IMG[title="close"]
-zeyutvcanales.com###KBTricksFBpop
-canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com##*[id^="floatLayer"]
-pirlotv.tv###ad_overlay
-pirlotv.tv###ad_overlay_content
-pirlotv.tv###ad_overlay_countdown
-@@||cdn.chatytvgratis.me/ads/ads.php?*$domain=cineplanet21.com
-@@||cdn.chatytvgratis.me/ads/ads2.php?*$domain=cineplanet21.com
