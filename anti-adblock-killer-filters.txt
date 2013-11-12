@@ -277,7 +277,9 @@ tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervi
 ! purevid.com
 purevid.com###ad
 ! youwatch.org
-youwatch.org###aad
+!youwatch.org###aad
+!||youwatch.org/embed-*$popup
+!||pubdirecte.com/script/campagne.php?*$popup
 ! nowvideo.ch
 nowvideo.ch###aad
 nowvideo.ch###aad2
