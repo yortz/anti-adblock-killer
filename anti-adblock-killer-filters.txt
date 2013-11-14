@@ -353,6 +353,8 @@ pirlotv.tv###ad_overlay_countdown
 ! chatytvgratis.me
 @@||cdn.chatytvgratis.me/ads/ads.php?*$domain=cineplanet21.com
 @@||cdn.chatytvgratis.me/ads/ads2.php?*$domain=cineplanet21.com
+! sharecast.to
+sharecast.to###closeb
 ! Others ---------------------------------------------------------------------------------------
 ! tvi
 tvi24.iol.pt##iframe[id=barraIOL]
