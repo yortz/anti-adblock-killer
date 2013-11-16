@@ -172,6 +172,9 @@ videotools.12pings.net###chucknorris
 thesimsresource.com#@##leaderboardad
 ! mako.co.il
 @@||checkm8.com^$object-subrequest,domain=mako.co.il
+! snsw.us
+!||snsw.us/static/anti-ad.js$script
+snsw.us#@##ad_1
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
@@ -388,6 +391,8 @@ putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
 mylivesocial.com##.bgimg
+! poringapic.com
+poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
 ! filestube.com
 filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ! billionuploads.com/
