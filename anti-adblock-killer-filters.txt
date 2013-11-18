@@ -153,8 +153,8 @@ jheberg.net##.loading-background
 ! myspass.de
 @@||vh.adscale.de/vah?*
 @@||vh.adscale.de/crossdomain.xml
-||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest 
-|serving-sys.com^$third-party
+@@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
+@@||serving-sys.com^$third-party
 ! dizi-mag.com
 @@||adhood.com^$third-party,domain=dizi-mag.com
 ! hentaistream.com
