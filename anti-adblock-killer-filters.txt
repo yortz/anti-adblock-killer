@@ -175,6 +175,8 @@ thesimsresource.com#@##leaderboardad
 ! snsw.us
 !||snsw.us/static/anti-ad.js$script
 snsw.us#@##ad_1
+! revision3.com
+@@||m.v.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=revision3.com
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
@@ -251,6 +253,9 @@ fenopy.se##[rel="nofollow external"][href^="/ddl/"]
 seedpeer.me###body > #pageTop + * + #headerbox + TABLE[width="100%"]
 ! mininova.org
 mininova.org###content > #adspot-a + .maintable
+! zetorrents.com
+zetorrents.com##[href^="http://acces.directionplaisir.com/a.php?"]
+zetorrents.com##[href^="http://www.insta-cash.net/tds/?"]
 ! Debriders --------------------------------------------------------------------------------------
 ! mondebrideur.com
 mondebrideur.com##.plugbarremozi
