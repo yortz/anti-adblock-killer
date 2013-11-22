@@ -154,7 +154,7 @@ jheberg.net##.loading-background
 @@||vh.adscale.de/vah?*
 @@||vh.adscale.de/crossdomain.xml
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
-@@||serving-sys.com^$third-party
+@@||serving-sys.com^$third-party,domain=myspass.de
 ! dizi-mag.com
 @@||adhood.com^$third-party,domain=dizi-mag.com
 ! hentaistream.com
@@ -256,6 +256,8 @@ mininova.org###content > #adspot-a + .maintable
 ! zetorrents.com
 zetorrents.com##[href^="http://acces.directionplaisir.com/a.php?"]
 zetorrents.com##[href^="http://www.insta-cash.net/tds/?"]
+! rarbg.com
+rarbg.com##A[href^="/download_direct.php"]
 ! Debriders --------------------------------------------------------------------------------------
 ! mondebrideur.com
 mondebrideur.com##.plugbarremozi
@@ -281,7 +283,7 @@ planet-series.tv##IMG[src="http://www.planet-series.tv/images/250-1.png"]
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-2.png"]
 ! Streaming --------------------------------------------------------------------------------------
 ! floatLayer
-tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org,championsuefa.tv,canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com##*[id^="floatLayer"]
+tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org,championsuefa.tv,canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com,str3amtv15.altervista.org,str3amtv16.altervista.org,str3amtv17.altervista.org,str3amtv18.altervista.org##*[id^="floatLayer"]
 ! purevid.com
 purevid.com###ad
 ! youwatch.org
