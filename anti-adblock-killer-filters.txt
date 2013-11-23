@@ -177,6 +177,9 @@ thesimsresource.com#@##leaderboardad
 snsw.us#@##ad_1
 ! revision3.com
 @@||m.v.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=revision3.com
+! teknofil.no
+teknofil.no##.tek-black-overlay.subscription-popup-overlay
+teknofil.no##.subscription-popup.clearfix
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
