@@ -178,8 +178,9 @@ snsw.us#@##ad_1
 ! revision3.com
 @@||m.v.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=revision3.com
 ! teknofil.no
-teknofil.no##.tek-black-overlay.subscription-popup-overlay
-teknofil.no##.subscription-popup.clearfix
+!teknofil.no##.tek-black-overlay.subscription-popup-overlay
+!teknofil.no##.subscription-popup.clearfix
+||static.tek.no/js/jquery.colorbox-min.js?*
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
@@ -187,6 +188,7 @@ teknofil.no##.subscription-popup.clearfix
 /fbox/fblaunch.js|$domain=musicbiatch.com
 serie-streaming-vf.com,dbrid.eu###stp-bg
 serie-streaming-vf.com,dbrid.eu###stp-main
+digitaltrends.com##.fancybox-overlay.fancybox-overlay-fixed
 !----------------------------------------------------------------------------------------------------!
 ! Trackers
 !----------------------------------------------------------------------------------------------------!
@@ -261,6 +263,15 @@ zetorrents.com##[href^="http://acces.directionplaisir.com/a.php?"]
 zetorrents.com##[href^="http://www.insta-cash.net/tds/?"]
 ! rarbg.com
 rarbg.com##A[href^="/download_direct.php"]
+! emule-island.ru##
+emule-island.ru##.newsgroup
+emule-island.ru##.lastnews + A[href^="http://www.downloadmr.com/dmr/download/"]
+! bts.to
+bts.to##.dl_blue[href^="/goto_.php?url="]
+! poringapic.com
+poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
+! torrentproject.com
+torrentproject.com##A[href^="//torrentproject.com/out/?"]
 ! Debriders --------------------------------------------------------------------------------------
 ! mondebrideur.com
 mondebrideur.com##.plugbarremozi
