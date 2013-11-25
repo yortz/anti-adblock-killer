@@ -181,14 +181,23 @@ snsw.us#@##ad_1
 !teknofil.no##.tek-black-overlay.subscription-popup-overlay
 !teknofil.no##.subscription-popup.clearfix
 ||static.tek.no/js/jquery.colorbox-min.js?*
+!
+vostfr-vf.com##[href="/100Mbs.html"]
+vostfr-vf.com##.fixe
+vostfr-vf.com##[href^="http://api.adlure.net/partner/click/"]
+! majorleaguegaming.com
+||pagefair.com/static/adblock_detection/js/*
+||majorleaguegaming.com/assets/ab.js
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
 /fbox/fb.js|$domain=musicbiatch.com
 /fbox/fblaunch.js|$domain=musicbiatch.com
-serie-streaming-vf.com,dbrid.eu###stp-bg
-serie-streaming-vf.com,dbrid.eu###stp-main
+serie-streaming-vf.com,dbrid.eu,t24h.eu###stp-bg
+serie-streaming-vf.com,dbrid.eu,t24h.eu###stp-main
 digitaltrends.com##.fancybox-overlay.fancybox-overlay-fixed
+mamega.com###fblikepop
+mamega.com###fblikebg
 !----------------------------------------------------------------------------------------------------!
 ! Trackers
 !----------------------------------------------------------------------------------------------------!
@@ -268,6 +277,8 @@ emule-island.ru##.newsgroup
 emule-island.ru##.lastnews + A[href^="http://www.downloadmr.com/dmr/download/"]
 ! bts.to
 bts.to##.dl_blue[href^="/goto_.php?url="]
+! torrent-finder.info
+torrent-finder.info###addon_info
 ! poringapic.com
 poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
 ! torrentproject.com
@@ -301,9 +312,10 @@ tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervi
 ! purevid.com
 purevid.com###ad
 ! youwatch.org
-!youwatch.org###aad
-!||youwatch.org/embed-*$popup
-!||pubdirecte.com/script/campagne.php?*$popup
+!@@||youwatch.org^$elemhide
+||youwatch.org^$popup
+||pubdirecte.com^$popup,third-party
+||adcash.com^$popup,third-party
 ! nowvideo.ch
 nowvideo.ch###aad
 nowvideo.ch###aad2
@@ -390,6 +402,7 @@ record.xl.pt##[href^="http://partner.sbaffiliates.com/"]
 ||record.xl.pt/common/images/pub/*
 ||js.xl.pt/molduras/record/deco/*
 pubs.xl.pt###descontos
+record.xl.pt###BannerINQ
 ! file4go.com
 file4go.com###banner_728x90B
 ! pro-ddl.ws
@@ -423,3 +436,5 @@ filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ###WarningCodec
 ! fake download link
 ##A[href^=" http://www.FriendlyDuck.com/AF_TA/rel/"]
+!
+||assurance-conseil.net/popup.js
