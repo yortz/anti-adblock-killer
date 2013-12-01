@@ -188,6 +188,8 @@ vostfr-vf.com##[href^="http://api.adlure.net/partner/click/"]
 ! majorleaguegaming.com
 ||pagefair.com/static/adblock_detection/js/*
 ||majorleaguegaming.com/assets/ab.js
+! free-movie-home.com
+@@||mgcashgate.com/cpalocker/?*$domain=free-movie-home.com
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
@@ -283,6 +285,10 @@ torrent-finder.info###addon_info
 poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
 ! torrentproject.com
 torrentproject.com##A[href^="//torrentproject.com/out/?"]
+! torrent-avenue.com
+||torrent-avenue.com/popup.js
+! torrent-francais.com
+torrent-francais.com##A[onclick^="this.href='http://www.FriendlyDuck.com/AF_TA/rel/"]
 ! Debriders --------------------------------------------------------------------------------------
 ! mondebrideur.com
 mondebrideur.com##.plugbarremozi
@@ -391,6 +397,7 @@ pirlotv.tv###ad_overlay_countdown
 @@||cdn.chatytvgratis.me/ads/ads2.php?*$domain=cineplanet21.com
 ! sharecast.to
 sharecast.to###closeb
+||sharecast.to/matomybanner.html
 ! Others ---------------------------------------------------------------------------------------
 ! tvi
 tvi24.iol.pt##iframe[id=barraIOL]
