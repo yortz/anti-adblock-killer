@@ -111,8 +111,7 @@ canhasbitcoin.com###adblock-message
 ! enigmaboard.com
 enigmaboard.com##.no
 ! eventhubs.com
-@@||n4403ad.doubleclick.net/adj/gn.eventhubs.com/*
-@@||ad.rctrails.com^
+@@||ads.abusinessforsellingyouthingsthatareniceandyoulikethem.info^$script,domain=eventhubs.com
 ! megagames.com
 megagames.com##.message.adblock-message
 ! romulation.net
@@ -190,6 +189,8 @@ vostfr-vf.com##[href^="http://api.adlure.net/partner/click/"]
 ||majorleaguegaming.com/assets/ab.js
 ! free-movie-home.com
 @@||mgcashgate.com/cpalocker/?*$domain=free-movie-home.com
+! allostreaming-fr.com
+@@||zitvk.rpxxv.chickenkiller.com/js/bannerad6.js$domain=allostreaming-fr.com
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
