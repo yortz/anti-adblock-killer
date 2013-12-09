@@ -112,6 +112,7 @@ canhasbitcoin.com###adblock-message
 enigmaboard.com##.no
 ! eventhubs.com
 @@||ads.abusinessforsellingyouthingsthatareniceandyoulikethem.info^$script,domain=eventhubs.com
+@@||doubleclick.infineoncorp.com^$domain=eventhubs.com
 ! megagames.com
 megagames.com##.message.adblock-message
 ! romulation.net
@@ -198,8 +199,8 @@ anisearch.com#@##reklame
 !----------------------------------------------------------------------------------------------------!
 /fbox/fb.js|$domain=musicbiatch.com
 /fbox/fblaunch.js|$domain=musicbiatch.com
-serie-streaming-vf.com,dbrid.eu,t24h.eu###stp-bg
-serie-streaming-vf.com,dbrid.eu,t24h.eu###stp-main
+/plugins/social-traffic-pop/stp.js*|$script
+/plugins/advanced-facebook-content-locker/js/jquery.simplemodal.js|$script
 digitaltrends.com##.fancybox-overlay.fancybox-overlay-fixed
 mamega.com###fblikepop
 mamega.com###fblikebg
@@ -376,9 +377,9 @@ tugastream.com###closediv
 antena24.com##*[id^="layer"]
 ! thesporttv.eu
 thesporttv.eu##*[id^="ad_tlvmedia-"]
-! str3amtv14
-str3amtv14.altervista.org###ad_adorika-300x250
-||str3amtv14.altervista.org^$popup
+! str3amtv15
+str3amtv15.altervista.org###ad_adorika-300x250
+||str3amtv15.altervista.org^$popup
 ! livesportshd.us
 channel1.livesportshd.us###ai_tapar_content
 ! sportvgratis1.com
@@ -450,3 +451,5 @@ filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ##A[href^=" http://www.FriendlyDuck.com/AF_TA/rel/"]
 !
 ||assurance-conseil.net/popup.js
+!
+sexuria.com^$popup
