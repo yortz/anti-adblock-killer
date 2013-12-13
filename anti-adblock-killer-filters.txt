@@ -194,6 +194,8 @@ vostfr-vf.com##[href^="http://api.adlure.net/partner/click/"]
 @@||zitvk.rpxxv.chickenkiller.com/js/bannerad6.js$domain=allostreaming-fr.com
 ! anisearch.com
 anisearch.com#@##reklame
+! maisgasolina.com
+maisgasolina.com#@##adblock
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
