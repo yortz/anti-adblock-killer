@@ -111,7 +111,8 @@ canhasbitcoin.com###adblock-message
 ! enigmaboard.com
 enigmaboard.com##.no
 ! eventhubs.com
-@@||ads.abusinessforsellingyouthingsthatareniceandyoulikethem.info^$script,domain=eventhubs.com
+@@||ads.abusinessforsellingyouthingsthatareniceandyoulikethem.info^$domain=eventhubs.com
+@@||haveyoueverfartedinamovietheaterandhadtoleaveitwassobad.us^$domain=eventhubs.com
 @@||doubleclick.infineoncorp.com^$domain=eventhubs.com
 ! megagames.com
 megagames.com##.message.adblock-message
@@ -320,7 +321,7 @@ planet-series.tv##IMG[src="http://www.planet-series.tv/images/250-1.png"]
 planet-series.tv##IMG[src="http://www.planet-series.tv/images/728-2.png"]
 ! Streaming --------------------------------------------------------------------------------------
 ! floatLayer
-tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,str3amtv14.altervista.org,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org,championsuefa.tv,canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com,str3amtv15.altervista.org,str3amtv16.altervista.org,str3amtv17.altervista.org,str3amtv18.altervista.org##*[id^="floatLayer"]
+str3amtv4.blogspot.pt,str3amtv2.pt.am,str3amtv15.altervista.org,str3amtv.eu,tvportugalhd.info,tvportugalhd.com,tvportugalhd.org,tvphd.com,canaistv-str3amtv.forumeiros.eu,str3amtv.eu,str3amtv.pt.am,sporttv.pt.am,sportsonline.pt.am,listajogos.str3amtv.eu,pogotv.eu,zonatugatv.com,flashstreams.net,cocas.tv,soccertoall.net,tvgente.com,sportvgratis1.com,icasthd.tv,hdtvtuga.com,hdembed.com,streamking.org,championsuefa.tv,canalescp.blogspot.ch,miscanales21.blogspot.ch,miscanalescp25.blogspot.ch,peliculascp.blogspot.ch,zeyutvcanales.com,str3amtv15.altervista.org,str3amtv16.altervista.org,str3amtv17.altervista.org,str3amtv18.altervista.org##*[id^="floatLayer"]
 ! purevid.com
 purevid.com###ad
 ! youwatch.org
@@ -369,6 +370,7 @@ stream2watch.me###moveads
 ana1.me##.videopos
 ! zuuk.net
 cdn.zuuk.net##*[id^="\5f bar_"]
+cdn.zuuk.net##[style="z-index: 99999; position: fixed; width: 100%; background-color: rgb(251, 236, 173); overflow: hidden; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(112, 112, 112); top: 0px; left: 0px; margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Verdana, Geneva, sans-serif; background-position: initial initial; background-repeat: initial initial;"]
 ! tvdez.com
 cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
 cdn.tvdez.com###cerrar
@@ -379,9 +381,8 @@ tugastream.com###closediv
 antena24.com##*[id^="layer"]
 ! thesporttv.eu
 thesporttv.eu##*[id^="ad_tlvmedia-"]
-! str3amtv15
-str3amtv15.altervista.org###ad_adorika-300x250
-||str3amtv15.altervista.org^$popup
+! str3amtv domains
+str3amtv4.blogspot.pt,str3amtv2.pt.am,str3amtv15.altervista.org,str3amtv.eu###ad_adorika-300x250
 ! livesportshd.us
 channel1.livesportshd.us###ai_tapar_content
 ! sportvgratis1.com
@@ -455,3 +456,9 @@ filestube.com##A[href^="https://shorte.st/ref/"] FONT[color="red"]
 ||assurance-conseil.net/popup.js
 !
 sexuria.com^$popup
+!
+tvdesporto.com#@##ads1
+sporttvdireto.com#@##ads1
+||sporttvdireto.com/ads/popunder.php*$popup
+!
+||id513423560-3849571296.h3526.com^
