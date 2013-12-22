@@ -198,6 +198,8 @@ anisearch.com#@##reklame
 anisearch.com###window > .box-error
 ! maisgasolina.com
 maisgasolina.com#@##adblock
+! aniroleplay.com
+@@||aniroleplay.com/adframe_*.js$script
 !----------------------------------------------------------------------------------------------------!
 ! Social Network (overlay like box)
 !----------------------------------------------------------------------------------------------------!
@@ -311,6 +313,9 @@ juba-get.com##IMG[src="http://goo.gl/KcrEH"]
 stream-happy.com###layer2
 ! coredistrict.com
 coredistrict.com##IMG[src^="http://pixxur.com/pfb/"]
+! comopremium.com.ar
+comopremium.com.ar###blanuncio
+comopremium.com.ar##IMG[src="templates/plugmod/images/a.png"]
 ! Cloud --------------------------------------------------------------------------------------
 ! wawa-film.org
 wawa-film.org##[href^="http://api.adlure.net/partner/click/"]
